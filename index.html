@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Periodic Table of Elements</title>
+    <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.0/dist/aframe-extras.min.js"></script>
+    <script src="https://rawgit.com/mayognaise/aframe-mouse-cursor-component/master/dist/aframe-mouse-cursor-component.min.js"></script>
+    <script src="aframe.js"></script>
+  </head>
+  <body>
+    <a-scene cursor="rayOrigin: mouse">
+        <a-entity mouse-cursor>
+      <a-plane
+        add-boxes="totalBoxes: 114"
+        position="0 -4 -4"
+        rotation="-90 0 0"
+        width="40"
+        height="40"
+        color="#7BC8A4"
+      >
+        <a-box click="src:17" id="2" position="0 0 2" color="black"></a-box
+      ></a-plane>
+      <a-sky color="#87CEEB"></a-sky> </a-scene
+    ></a-entity>
+  </body>
+</html>
