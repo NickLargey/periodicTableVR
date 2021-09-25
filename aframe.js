@@ -24,7 +24,6 @@ AFRAME.registerComponent("add-boxes", {
     totalBoxes: { type: "number" },
   },
   init: function () {
-    //   this.tick = AFRAME.utils.throttleTick(this.tick, 2000, this);
     this.planeEntity = document.querySelector("a-plane");
     this.count = 0;
   },
@@ -60,6 +59,4 @@ AFRAME.registerComponent("add-boxes", {
     }
   },
 });
-// for (const d in data.elements) {
-//     console.log(
-//       `${data.elements[d].name}: ${data.elements[d].atomic_mass}`
+
